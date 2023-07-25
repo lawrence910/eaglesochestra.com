@@ -1,0 +1,222 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: Arial,Arial, Helvetica,sans-serif;
+  background-size: cover;
+  background-position: center; 
+  background-color: #000000;
+  font-size: 28px;
+}
+.header {
+  background-color: #030303d0;
+  text-align: center;
+  padding: 10px;
+}
+.header p{
+  padding: 20px;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin-bottom: 29px;
+  color: #c56708;
+  text-align: center;
+  font-family: 'Mr Bedfort';font-size: 22px;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #a15f08;
+
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #e47820;
+  color: white;
+}
+
+
+/* Page content */
+.content {
+  padding: 17px;
+}
+.co
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+ /* Banner styles */
+  .banner {
+    background-image: url('robert-collins-lP_FbBkMn1c-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20;
+    margin: 20;
+  }
+  .banner2 {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    text-align: center;
+  }
+  .banner2 p{
+  text-align: left;
+  color: #0c0800;
+  font-family: 'Mr Bedfort';font-size: 60px;
+   font-size: 25px;
+}
+
+
+  .banner h1 {
+    font-size: 20px;
+    color: #5e6825;
+    padding: 40px;
+  }
+
+  /* Content styles */
+  .content {
+    padding: 10px;
+    text-align: center;
+    color: #e4e0dc;
+  }
+  .content h3{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #d3cec9;
+    padding: 90;
+
+  }
+
+  
+
+  .resizable-image {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Automatically adjust the height to maintain the aspect ratio */
+    position: absolute; /* Position the image absolutely within the container */
+    top: 50%; /* Adjust the top position as needed */
+    left: 50%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    }
+  .image-container {
+    position: absolute; /* Create a relative positioning context */
+    width: 100px; /* Set the width of the container */
+    height: 100px; /* Set the height of the container */
+  }
+  /* donate word*/
+.last h5{
+  text-align: left;
+  font-family: 'new times romans';
+  font-size: 20px;
+  color: #d3cec9;
+  margin: 10px;
+}
+/*read more button*/
+
+
+
+
+
+/*donate down button*/
+.button {
+  border-radius: 20px;
+  background-color: #bb840d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+/*social media*/
+.social-media{
+  text-align: center;
+  height: 100px;
+  transition: 0.5s;
+  margin: 40px;
+  
+}
+
+.social-media h4{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #d3cec9;
+  margin:auto;
+}
+
+/* read more button*/
