@@ -112,6 +112,40 @@ body {
     color: #5e6825;
     padding: 40px;
   }
+.banner2 h1{
+  text-align: left;
+  font-family: arial;
+  font-size: 35px;
+  color: #131212;
+  padding-bottom: 400px;
+}
+
+.banner2 p{
+  text-align: left;
+  font-family: arial;
+  font-size: 25px;
+  color: #d3cec9;
+  padding-left: 10px;
+  position: absolute;
+}
+
+.banner2 h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #0f0f0f;
+  padding-left: 400px;
+  padding-bottom: 400px;
+}
+.banner2 h4{
+  text-align: left;
+  padding-bottom: 300px;
+  margin-left: 10px;
+  
+}
+
+
+
 
   /* Content styles */
   .content {
