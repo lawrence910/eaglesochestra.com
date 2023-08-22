@@ -2,71 +2,131 @@
 *
 {
   box-sizing: border-box;
+ 
 }
 
 body {
   margin: 0;
   padding:0;
-  font-family: Arial,Arial, Helvetica,sans-serif;
   background-size: cover;
-  background-position: center; 
-  background-color: #000000;
+  background-color: #291f0d;
   font-size: 28px;
 }
 .header {
   background-color: #030303d0;
   text-align: center;
-  padding: 10px;
-}
-.header p{
-  padding: 20px;
+  padding: 150px;
 }
 
-.header h2 {
-  font-size: 20px;
-  margin-bottom: 29px;
-  color: #c56708;
-  text-align: center;
-  font-family: 'Mr Bedfort';font-size: 22px;
+.header h2{
+ 
+  color: #af8c40;
+  text-align: left;
+  font-family: 'Mr Bedfort';font-size: 90%;
 }
+
+
+/* LOGO RESIZE*/
+.resizable-image {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Automatically adjust the height to maintain the aspect ratio */
+  position: relative; /* Position the image absolutely within the container */
+  top: -10%; /* Adjust the top position as needed */
+  left: 0%; /* Adjust the left position as needed */
+  transform: translate(-50%, -50%);
+  }
+.image-container {
+  position:absolute; /* Create a relative positioning context */
+  width: 100px; /* Set the width of the container */
+  height: 110px; /* Set the height of the container */
+
+}
+
+
 /* Style the navbar */
 #navbar {
-  overflow: hidden;
-  background-color: #a15f08;
-
+  background-color: #4d2b00;
 }
 
 /* Navbar links */
 #navbar a {
   float: left;
-  display: block;
+  display:block;
   color: #f2f2f2;
   text-align: center;
-  padding: 30px;
+  padding:20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 29px;
 }
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #664c04;
+  color: rgb(245, 242, 238);
 }
 #navbar a.active {
-  background-color: #e47820;
-  color: white;
+  background-color: #725908;
+  color: rgb(182, 171, 121);
+}
+
+/*FOR TOP DONATE BUTTON*/
+.button1 {
+  border-radius: 10px;
+  background-color: #775203;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.button1 span {
+  cursor:pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 20px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
-/* Page content */
-.content {
-  padding: 17px;
+
+/* Page content */ 
+.content h2{
+  font-size: 30;
 }
+.content h1 {
+  padding: 40px;
+  font-size: 20px;
+  font-family:sans-serif;
+  text-align: center;
+}
+
 .co
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 0%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -81,37 +141,64 @@ body {
     background-image: url('robert-collins-lP_FbBkMn1c-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 470px;
+    width: 1100PX;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20;
-    margin: 20;
+    padding: auto;
+    margin: auto;
   }
   .banner2 {
-    background-image: url('');
+    background-color: #0f021f;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content:left ;
     text-align: center;
   }
-  .banner2 p{
+
+
+  .banner2 h3 {
+    font-size: 40px;
+    color: #e8e9e1;
+    padding: 10px;
+    text-align:center ;
+  }
+
+  /* Content styles */
+  .content {
+    padding: 10px;
+    text-align: center;
+    color: #e4e0dc;
+  }
+  .content h3{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+
+  
+
+  
+  /* donate word/ last work*/
+
+  
+
+  /* donate word/ last work*/
+
+.last h5{
   text-align: left;
-  color: #0c0800;
-  font-family: 'Mr Bedfort';font-size: 60px;
-   font-size: 25px;
+  font-family: 'new times romans';
+  font-size: 20px;
+  color: #d3cec9;
+  margin: 10px;
 }
 
-
-  .banner h1 {
-    font-size: 20px;
-    color: #5e6825;
-    padding: 40px;
-  }
 .banner2 h1{
   text-align: left;
   font-family: arial;
@@ -137,59 +224,18 @@ body {
   padding-left: 400px;
   padding-bottom: 400px;
 }
-.banner2 h4{
+.banner2 p1{
   text-align: left;
+  font-size: 30px;
   padding-bottom: 300px;
-  margin-left: 10px;
-  
+  position: relative;
+
+}
+.email{
+  text-align: lefts;
 }
 
 
-
-
-  /* Content styles */
-  .content {
-    padding: 10px;
-    text-align: center;
-    color: #e4e0dc;
-  }
-  .content h3{
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-
-  p {
-    font-size: 20px;
-    line-height: 1.5;
-    text-align: center;
-    color: #d3cec9;
-    padding: 90;
-
-  }
-
-  
-
-  .resizable-image {
-    width: 100px; /* Set the desired width */
-    height: 100px; /* Automatically adjust the height to maintain the aspect ratio */
-    position: absolute; /* Position the image absolutely within the container */
-    top: 50%; /* Adjust the top position as needed */
-    left: 50%; /* Adjust the left position as needed */
-    transform: translate(-50%, -50%);
-    }
-  .image-container {
-    position: absolute; /* Create a relative positioning context */
-    width: 100px; /* Set the width of the container */
-    height: 100px; /* Set the height of the container */
-  }
-  /* donate word*/
-.last h5{
-  text-align: left;
-  font-family: 'new times romans';
-  font-size: 20px;
-  color: #d3cec9;
-  margin: 10px;
-}
 /*read more button*/
 
 
@@ -198,17 +244,19 @@ body {
 
 /*donate down button*/
 .button {
-  border-radius: 20px;
-  background-color: #bb840d;
+  border-radius: 70px;
+  background-color: #855c05;
   border: none;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding: 20px;
-  width: 250px;
+  padding:auto;
+  margin: auto;
+  width: 200px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 0px;
+  position: absolute;
 }
 
 .button span {
@@ -238,19 +286,20 @@ body {
   
 /*social media*/
 .social-media{
-  text-align: center;
-  height: 100px;
   transition: 0.5s;
-  margin: 40px;
+ 
+  
+}
+.last h1{
+  font-size: 30px;
+  color: rgb(177, 117, 7);
+  text-align: center;
+  padding: auto;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
 
-.social-media h4{
-  text-align: center;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 20px;
-  color: #d3cec9;
-  margin:auto;
-}
+
+
 
 /* read more button*/
