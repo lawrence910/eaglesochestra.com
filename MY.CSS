@@ -15,6 +15,12 @@ body {
   
  
 }
+.starter{
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  
+}
 .header {
   background-color: #030303d0;
   text-align: center;
@@ -23,21 +29,22 @@ body {
 }
 
 .header h2{
-  padding: 10px;
+  padding: 20px;
+  margin: auto;
   color: #af8c40;
   text-align: left;
-  font-family: 'Mr Bedfort';font-size: 90%;
-  position: absolute; left: 250px; top: 40px;
+  font-family: 'Mr Bedfort';font-size: 60%;
+  position: absolute; left: 100px; top: 5px;
 }
 
 
 /* LOGO RESIZE*/
 .resizable-image {
-  width: 150px; /* Set the desired width */
-  height: 150px; /* Automatically adjust the height to maintain the aspect ratio */
-  position: relative; /* Position the image absolutely within the container */
-  top: -10%; /* Adjust the top position as needed */
-  left: 0%; /* Adjust the left position as needed */
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Automatically adjust the height to maintain the aspect ratio */
+  position: absolute; /* Position the image absolutely within the container */
+  top:50%; /* Adjust the top position as needed */
+  left: 40%; /* Adjust the left position as needed */
   transform: translate(-50%, -50%);
   }
 .image-container {
@@ -51,8 +58,10 @@ body {
 /* Style the navbar */
 #navbar {
   background-color: #472401;
-  position: absolute; right: 380px; top: 140px;
-  padding: auto;
+  position: absolute; left: 110px; top: 65px;
+  padding: 0px;
+  margin: 1px;
+  font-size: 15px;
 }
 
 /* Navbar links */
@@ -63,7 +72,7 @@ body {
   text-align: center;
   padding:20px;
   text-decoration: none;
-  font-size: 29px;
+  font-size: 15px;
 }
 #navbar a:hover {
   background-color: #664c04;
@@ -82,12 +91,13 @@ body {
   color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding:20px;
+  padding:10px;
   width: 150px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 0px;
-  position: absolute; right: 255px; top: 170px;
+  margin: 5px;
+  position: absolute; left: auto; top: 60px;
+  
 }
 
 .button1 span {
@@ -119,8 +129,9 @@ body {
 
 /* Page content */ 
 .content h2{
-  font-size: 30;
-  padding: auto;
+  font-size: 30px;
+  padding: 25px;
+  margin: 80px;
 }
 .content h1 {
   padding:auto;
@@ -130,7 +141,7 @@ body {
   color: #0f021f;
 }
 
-.co
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -245,7 +256,7 @@ body {
 /*donate down button*/
 .button {
   border-radius: 20px;
-  background-color: #855c05;
+  background-color: #818181;
   border: none;
   color: #ffffff;
   text-align: center;
