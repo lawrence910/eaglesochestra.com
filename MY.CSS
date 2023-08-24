@@ -14,15 +14,9 @@ body {
   text-align: center;
   
 }
-.header {
-  background-color: #030303d0;
-  text-align: center;
-  padding:auto;
-  margin: auto;
-  position: absolute; left: 50px;
-}
 
-.header h2{
+
+.h2{
   padding: 20px;
   margin: auto;
   color: #af8c40;
@@ -38,7 +32,7 @@ body {
   height: 100px; /* Automatically adjust the height to maintain the aspect ratio */
   position: absolute; /* Position the image absolutely within the container */
   top:50%; /* Adjust the top position as needed */
-  left: 40%; /* Adjust the left position as needed */
+  left: 50%; /* Adjust the left position as needed */
   transform: translate(-50%, -50%);
   }
 .image-container {
@@ -52,8 +46,10 @@ body {
 /* Style the navbar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #6d5104;
   font-family: Arial;
+  margin: inherit;
+  
 }
 
 /* Links inside the navbar */
@@ -62,7 +58,7 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 16px;
   text-decoration: none;
 }
 
@@ -70,6 +66,7 @@ body {
 .dropdown {
   float: left;
   overflow: hidden;
+  
 }
 
 /* Dropdown button */
@@ -78,7 +75,7 @@ body {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 30px 20px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
