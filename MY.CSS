@@ -12,17 +12,17 @@ body {
   background-color: #291f0d;
   font-size: 28px;
   text-align: center;
+  font-family: inherit;
   
 }
 
 
-.h2{
-  padding: 20px;
+.header h2{
   margin: auto;
   color: #af8c40;
-  text-align: left;
-  font-family: 'Mr Bedfort';font-size: 60%;
-  position: absolute; left: 100px; top: 5px;
+  text-align: center;
+  font-family:inherit;
+  font-size: 30px;
 }
 
 
@@ -38,7 +38,7 @@ body {
 .image-container {
   position:absolute; /* Create a relative positioning context */
   width: 100px; /* Set the width of the container */
-  height: 110px; /* Set the height of the container */
+  height: 100px; /* Set the height of the container */
 
 }
 
@@ -49,7 +49,7 @@ body {
   background-color: #6d5104;
   font-family: Arial;
   margin: inherit;
-  
+  position:absolute; top: 100px;
 }
 
 /* Links inside the navbar */
@@ -60,12 +60,14 @@ body {
   text-align: center;
   padding: 30px 16px;
   text-decoration: none;
+  
 }
 
 /* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
+  
   
 }
 
@@ -115,49 +117,6 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*FOR TOP DONATE BUTTON*/
-.button1 {
-  border-radius: 10px;
-  background-color: #775203;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 20px;
-  padding:10px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  position: absolute; left: 1000px; top: 60px;
-  
-}
-
-.button1 span {
-  cursor:pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button1:hover span {
-  padding-right: 20px;
-}
-
-.button1:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
 
 /* Page content */ 
 .content h2{
