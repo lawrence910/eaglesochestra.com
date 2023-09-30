@@ -1,87 +1,277 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-<link rel="stylesheet" href="MY.CSS">
-<script src="SCRIPT.JS"></script>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NGO WEBSITE</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="fullcontainer banner" id="homesection">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="/photos/vission 2 (1).jpg" alte="NGO LOGO">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">Home</a>
+                            </li>
+                            <li>
+                                <a href="#aboutsection">about</a>
+                            </li>
+                            <li>
+                                <a href="#programsSection">programms</a>
+                            </li>
+                            <li>
+                                <a href="#educationSection">Education</a>
+                            </li>
+                            <li>
+                                <a href="#gallerySection">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#joinSection">Join us</a>
+                            </li>
+                        </ul>
 
-    <div class="navbar">
-      <a href="#home">Home</a>
-      <a href="normal.html">News</a>
-      <a href="for-about.html">About</a>
-      <a href="for-volunteer.html">Volunteer</a>
-      <a href="for-donate.html">Donate</a>
+                    </nav>
+                </div>
+
+            </header>
+            <div class="container">
+                <h1>Together we can<span>save lives</span></h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <button>start with A little</button>
+            </div>   
+        </div>
+
+
+        <section class="fullcontainer" id="aboutsection">
+            <div class="container">
+                <h2 class="sectionTitle">About us</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div class="cards">
+                    <div class="donatonbox">
+                        <div class="title">Give Donaton</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt semper libero,
+                        </p>
+                        <button>
+                            Donate Now
+                        </button>
+                    </div>
+                    <!--Donation box end-->
+
+
+                    <div class="volunteerbox">
+                        <div class="title">become a volunteer</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt semper libero, 
+                        </p>
+                        <button>Become Now</button>
+                    </div>
+
+                    <!--Donation box end-->
+                    <div class="scholarshipbox">
+                        <div class="title">Give scholarship</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt semper libero, 
+                        </p>
+                        <button>Give immediately</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!--aboutsection ends here -->
+
+        <section class="programs" id="programsSection">
+            <div class="contaniner">
+                <h2 class="sectionTitle">programs</h2>
+
+                <div class="boxContainer">
+
+
+                    <div class="box">
+                        <div class="cardimage"></div>
+                        <div class="programTitle">Dedicating to helping kids</div>
+                        <div class="donationCount">
+                            Donation Goal : <span>$9845</span>
+                        </div>
+                        <button><a href="#aboutsection">Donate Now</a></button>
+                    </div>
+                    <!--box end-->
+
+                    <div class="box">
+                        <div class="cardimage"></div>
+                        <div class="programTitle">Dedicating to helping kids</div>
+                        <div class="donationCount">
+                            Donation Goal : <span>$9845</span>
+                        </div>
+                        <button>Donate Now</button>
+                    </div>
+                    <!--box end-->
+
+                    <div class="box">
+                        <div class="cardimage"></div>
+                        <div class="programTitle">Dedicating to helping kids</div>
+                        <div class="donationCount">
+                            Donation Goal : <span>$9845</span>
+                        </div>
+                        <button>Donate Now</button>
+                    </div>
+                    <!--box end-->
+
+                    <div class="box">
+                        <div class="cardimage"></div>
+                        <div class="programTitle"a href="#aboutsection">Dedicating to helping kids</a></div>
+                        <div class="donationCount">
+                            Donation Goal : <span>$9845</span>
+                        </div>
+                        <button>Donate Now</button>
+                    </div>
+                    <!--box end-->
+                </div>
+                <!--boxcontainer-->
+            </div>
+
+        </section>
+        
+        
+    <section class="education" id="educationSection">
+
+        <video autoplay muted loop class="videoplayer">
+            <source src="/photos/compressed file.mp4" type="video/mp4"/>
+            your browser does not support Html5 video
+        </video>
+        <div class="container">
+            <div class="sectionTitle">Education</div>
+
+            <div class="educationContainer">
+                <h3>
+                    Education is Essential for <br/>
+                    <strong>Better FUTURE</strong>
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                </p>
+                <button>Explore Now</button>
+            </div>
+        </div>
+    </section>
+    <!--Education section ends here -->
+
+
+    <section class="gallery" id="gallerySection">
+        <div class="container">
+            <div class="sectionTitle"> Gallery </div>
+
+            <div class="galleryContainer">
+                <div class="item">
+                   <a href="#joinSection">Join us</a> <span class="title">Image Title</span>
+                    <img src="/photos/19 Resourceful Rhythm Activities For Primary School - Teaching Expertise.jpg" alt="">
+                </div>
+                <!--item-->
+
+                <div class="galleryContainer">
+                    <div class="item">
+                        <span class="title">Image Title</span>
+                        <img src="/photos/Play for Kids_ _Only the Theatre for Me_ from THE GRUNCH.jpg" alt="">
+                    </div>
+                    <!--item-->
+
+                    <div class="galleryContainer">
+                        <div class="item">
+                            <span class="title">Image Title</span>
+                            <img src="/photos/1st Day of School 2016 - Picture Idea.jpg" alt="">
+                        </div>
+                        <!--item--><div class="galleryContainer">
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="/photos/Play for Kids_ _Only the Theatre for Me_ from THE GRUNCH.jpg" alt="">
+                </div>
+                <!--item--><div class="galleryContainer">
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="/photos/1st Day of School 2016 - Picture Idea.jpg" alt="">
+                </div>
+                <!--item-->
+            </div>
+        </div>
+    </section>
+    <!---->
+<section class="join" id="joinSection">
+    <div class="container">
+        <div class="joinTitle">
+            GIVE A CHILD AN EDUCATION & <span>SAVE POTENTIALS</span>
+        </div>
+        <P>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+        </P>
+        <button class="joinNow">JOIN US</button>
+        <button class="adoptBtn">ENROLL A CHILD</button>
     </div>
-    
-     <div class="header">
-      <div class="image-container"><img src="vission 2.jpg" alt="Your Image" class="resizable-image">
-  </div>
-  <h2> ECO FOUNDATION<br> SAVING DREAMS</h2>
-     </div>
 
-  
-  
+</section>
+<!---->
 
- 
-  
+<footer>
+    <div class="container">
 
-  <div class="content">
-          <h2>Who We Are</h2>
-  <h1>Projects that contribute to the reduction<br> of social inequality,<br> stimulating social inclusion from work, enhancing the potential for creation and expanding autonomy Projects that contribute to the reduction of social inequality, stimulating <br>social inclusion from work, enhancing the potential for creation and expanding autonomy Projects that contribute to the reduction of social inequality, stimulating social inclusion from work, enhancing the potential for creation<br> and expanding autonomy</h1>
-  
-  
-  <div class="banner">
-  </div>
+        <div class="newsletterContainer">
+            <img src="/photos/vission 2 (1).jpg" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo  
+            </p>
+            <input type="text" placeholder="Enter your email id">
+        </div>
 
-  <h1>One of the best ways to contribute to the development of society is the generation of employment and income.Our projects in this area are very challenging, because they go against the status quo,<br> completely avoiding a welfareapproach,we seek to develop potential entrepreneurs, generating social business.<br> For this we seek partnerships with experienced entrepreneurs,with knowledge<br>and willingness to invest in “social startups”One of the best ways to contribute to the development of society is the generation<br> of employment and income. Our projects in this area are very challenging,<br>because they go against the status quo, completely avoiding a welfare approach, we seek to develop potential entrepreneurs, generating social business.<br> For this we seek partnerships with experienced entrepreneurs, with knowledge and willingness to invest in “social startups”One of the best ways to contribute to the<br> development of society is the generation of employment and income. Our projects in this area are very challenging,<br> because they go against the status quo, completely avoiding a welfare approach, we seek to develop potential entrepreneurs,<br> generating social business. For this we seek partnerships with experienced entrepreneurs, with knowledge and willingness to invest in “social startups”<br></h1>
-  </div>
+        <div class="linksContainer">
+            <div class="title">Usefull links</div>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutsection">about</a>
+                </li>
+                <li>
+                    <a href="#programsSection">programms</a>
+                </li>
+                <li>
+                    <a href="#educationSection">Education</a>
+                </li>
+                <li>
+                    <a href="#gallerySection">Gallery</a>
+                </li>
+                <li>
+                    <a href="#joinSection">Join us</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+        </div>
 
 
+    <div class="connectContainer">
+        <div class="title">Connect with us</div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing<br/> 123424,kfmvii 
+        </p>
+        <p>info@ngo</p>
+        <p>(+234)8163772736</p>
+    </div>
 
-  
-
-
-  <div class="banner2">
-  <h3> Help Humanity and Give a hand<br>to make the Better World</h3></div>
-  </div>
-  
-  
-  <div class="last">
-  <h1>global ahead </h1>
-<h1>bringing hope to the world</h1>
 </div>
+</footer>
 
-<a href='for-donate.html'button class="button"><span>DONATE</span></button></a>
-  
- 
- 
-<div class="social-media">
-    
-
-  <a href="https://instagram.com/renzmaneigshid=NTc4MTIwNjQ2YQ==">
-    <ion-icon name="logo-instagram"></ion-icon>
-  </a>
-  <a href="https://wa.me/message/LE6VNJRKW4QII1">
-    <ion-icon name="logo-whatsapp"></ion-icon>
-  </a>
-  <a href="https://instagram.com/renzmaneigshid=NTc4MTIwNjQ2YQ==">
-    <ion-icon name="logo-facebook"></ion-icon>
-  </a>
-  <a href="https://instagram.com/renzmaneigshid=NTc4MTIwNjQ2YQ==">
-    <ion-icon name="logo-youtube"></ion-icon>
-  </a>
-</div>
-
-
-</body>
+    </body>
 </html>
-
-
-
-
-
